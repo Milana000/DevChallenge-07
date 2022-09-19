@@ -1,0 +1,741 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.p-left {
+  padding: 0 210px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: #333333;
+  width: 15%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+
+#page {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#page .content {
+  padding: 0 40px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #333333;
+}
+
+/* Nav */
+
+#page #header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page #header #nav {
+  width: 55%;
+}
+
+#page #header #nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 3.5;
+  padding: 0;
+}
+
+#page #header #nav .closebtn {
+  display: none;
+}
+
+#page #header .closenav {
+  display: none;
+}
+
+/* Home */
+#page #home {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#page #home img {
+  border-radius: 18px;
+  margin: 15px 0;
+}
+
+#page #home span:first-child {
+  color: #2d9cdb;
+  font-size: 18px;
+}
+
+#page #home .span-email {
+  color: #828282;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+#page #home p {
+  width: 389px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 45px 0;
+}
+
+#page #home .form {
+  width: 350px;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* #page #home .form  */
+#email {
+  width: 350px;
+  height: 57px;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 18px;
+  color: #bdbdbd;
+}
+
+/* #page #home .form button */
+.join {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  top: 3px;
+  right: 28%;
+  border: none;
+  background-color: #2d9cdb;
+  border-radius: 12px;
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+/* Services */
+
+#page #services {
+  width: 100%;
+  margin-top: 150px;
+}
+
+#page #services .boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  padding: 0 120px;
+  text-align: center;
+}
+#page #services h2 {
+  padding: 30px 100px;
+}
+
+#page #services .box {
+  width: 75%;
+  padding: 30px 20px;
+  text-align: justify;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+#page #services .box:hover {
+  box-shadow: 0px 10px 30px 0px #333333;
+}
+#page #services .box p {
+  padding: 0;
+}
+
+#page #services .box span {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+}
+
+#page #services .box:first-child span {
+  background-color: #2d9cdb;
+}
+
+#page #services .box:nth-child(2) span {
+  background-color: #27ae60;
+  transform: rotate(90deg);
+}
+
+#page #services .box:last-child span {
+  background-color: #eb5757;
+}
+
+#page #services .box button {
+  width: 116px;
+  height: 42px;
+  left: 198px;
+  top: 1949px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  color: #828282;
+  margin-top: 15px;
+}
+
+#page #services .box:hover button {
+  background-color: #2d9cdb;
+  color: #fff;
+}
+
+/* Our works */
+
+#page #our-works {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#page #our-works .one h2 {
+  padding: 30px 0;
+  margin: 50px 0;
+}
+
+#page #our-works .design {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page #our-works .see-more {
+  width: 93%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2d9cdb;
+}
+
+#page #our-works .design .image-item {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  padding: 13px;
+}
+
+#page #our-works .design .image-item img {
+  border-radius: 12px;
+}
+
+#page #our-works .design .image-item span {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 5px;
+  color: #828282;
+}
+#page #our-works .design .image-item h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+/* The team part */
+
+#page #our-works #team {
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page #our-works #team .about-team {
+  width: 30%;
+  padding-left: 100px;
+  margin-top: 88px;
+}
+
+#page #our-works #team .about-team h5 {
+  font-size: 18px;
+  margin: 0;
+  color: #eb5757;
+}
+
+#page #our-works #team .about-team h2 {
+  margin-top: 0;
+}
+
+#page #our-works #team .about-team p {
+  width: 80%;
+}
+
+#page #our-works #team .team-image {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+#page #our-works #team .team-image img {
+  border-radius: 24px;
+  max-width: 100%;
+}
+
+#page #our-works #team .team-image .female {
+  margin-top: 55%;
+}
+#page #our-works #team .team-image .male {
+  display: flex;
+  flex-direction: column;
+}
+
+#page #our-works #team .team-image .male img {
+  padding: 5px;
+}
+
+/* Clients */
+
+#page #clients {
+  width: 100%;
+  margin-top: 150px;
+  padding: 0 120px;
+}
+
+#page #clients .user-comment {
+  width: 100%;
+}
+
+#page #clients .user-comment p {
+  width: 70%;
+  font-weight: 500;
+  font-size: 32px;
+  color: #333333;
+}
+
+#page #clients .user-profile {
+  display: flex;
+}
+
+#page #clients .user-profile .user-image {
+  width: 90px;
+  height: 90px;
+  padding: 0 20px 0 0;
+}
+
+#page #clients .user-profile .user-image img {
+  border-radius: 14px;
+}
+
+#page #clients .user-profile .user-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+#page #clients .user-profile .user-info span:first-child {
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+
+#page #clients .user-profile .user-info span:last-child {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+  padding-top: 5px;
+}
+
+/* Contact */
+
+#page #contact {
+  width: 100%;
+  background-color: #100e1d;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+#page #contact .nav-list ul li {
+  padding: 5px;
+  font-size: 18px;
+}
+
+#page #contact .nav-list ul li a {
+  color: #fff;
+  font-weight: 400;
+}
+
+#page #contact .social h3 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+#page #contact .social .soc-net-icon i {
+  font-size: 22px;
+  padding: 5px;
+}
+
+#page #contact .form {
+  position: relative;
+  padding-top: 20px;
+}
+
+#page #contact .form h5 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f2f2f2;
+}
+
+#page #contact .form button {
+  top: 92px;
+  left: 76%;
+}
+
+#page #footer {
+  width: 100%;
+  background-color: #100e1d;
+  color: #fff;
+}
+
+#page #footer .footer h5 {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 0 5px;
+}
+
+#page #footer .footer {
+  padding-top: 100px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+  #page #services .boxes {
+    padding: 0;
+  }
+  #page #services .box p {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #page #home span,
+  h2,
+  p,
+  .form {
+    padding: 0 50px !important;
+  }
+  #page #home .form button {
+    right: 12%;
+  }
+
+  #page #our-works .one h2 {
+    width: 100%;
+  }
+
+  #page #our-works #team .about-team {
+    width: 46%;
+    padding: 0 10px !important;
+  }
+
+  #page #our-works #team .about-team h5 {
+    padding-left: 54px;
+  }
+
+  #page #our-works #team .about-team h2 {
+    font-size: 30px;
+  }
+
+  #page #clients {
+    padding: 0 !important;
+  }
+
+  #page #clients .user-profile {
+    padding-left: 50px;
+  }
+
+  #page #contact {
+    flex-direction: column;
+  }
+
+  #page #contact .social {
+    padding-left: 50px;
+  }
+
+  #page #contact .form {
+    margin-top: 30px;
+  }
+
+  #page #contact .form button {
+    top: 70px;
+    left: 317px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #page #header {
+    flex-direction: column;
+  }
+
+  #header h1 {
+    padding-left: 30px;
+  }
+
+  #header #nav {
+    display: none;
+    background-color: #333333;
+    height: 100vh;
+    width: 100% !important;
+    z-index: 1;
+    position: relative;
+    transition: 0.6s;
+  }
+
+  #header #nav ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  #header #nav ul li {
+    padding: 5px 0;
+  }
+
+  #header #nav ul li a {
+    color: #fff;
+  }
+
+  #page #header #nav #closebtn {
+    display: block;
+    top: 0;
+    right: 10px;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+  }
+
+  #page #header #closenav {
+    display: block;
+    top: 20px;
+    right: 10px;
+    color: #333333;
+    font-size: 40px;
+    position: absolute;
+  }
+
+  #page #our-works .design {
+    flex-direction: column;
+  }
+  #page #our-works .see-more {
+    justify-content: flex-start;
+    padding: 20px 0 0 4%;
+    font-size: 20px;
+  }
+
+  #page #our-works .design .one h2 {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+
+  #page #our-works #team .about-team h2 {
+    font-size: 27px;
+    padding: 0 0 0 30px !important;
+  }
+
+  #page #our-works #team .about-team p {
+    padding: 0 0 0 30px !important;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  #page #home h2 {
+    font-size: 28px;
+  }
+  #page #home p {
+    width: 80%;
+    text-align: justify;
+    padding: 0;
+  }
+
+  #page #services h2 {
+    font-size: 28px;
+  }
+  #page #services .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page #services .boxes .box {
+    margin-bottom: 40px;
+  }
+
+  #page #our-works #team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page #our-works #team .about-team {
+    width: 90%;
+  }
+
+  #page #our-works #team .team-image {
+    width: 100%;
+  }
+
+  #page #our-works #team .about-team h2 {
+    font-size: 35px;
+    width: 70%;
+  }
+
+  #page #our-works #team .about-team h5 {
+    padding-left: 30px;
+  }
+
+  #page #our-works #team .about-team p {
+    width: 70%;
+  }
+
+  #page #clients .user-comment p {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  #page #clients .user-profile {
+    padding: 25px 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #page #home span:first-child {
+    font-size: 15px;
+    padding-left: 20px !important;
+  }
+
+  #page #home p {
+    width: 95%;
+    margin: 0;
+    padding: 10px 0 25px !important;
+  }
+
+  #page #home h2 {
+    font-size: 22px;
+    padding-left: 20px !important;
+  }
+
+  #page #home .form {
+    width: 90%;
+    padding-left: 10px !important;
+  }
+
+  #email {
+    width: 100%;
+  }
+
+  .join {
+    left: 76%;
+  }
+
+  #page #home span,
+  h2,
+  p,
+  .form {
+    padding: 0 10px !important;
+  }
+
+  #page #our-works #team .about-team h2 {
+    width: 90%;
+  }
+
+  #page #clients .user-comment p {
+    font-size: 28px;
+  }
+
+  #page #contact .form {
+    padding: 0 15px !important;
+  }
+
+  #page #contact .form button {
+    top: 71px;
+    left: 76%;
+  }
+
+  #page .content {
+    padding: 0 10px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #page #contact .form button {
+    top: 71px;
+    left: 75%;
+  }
+
+  #page #our-works #team .about-team {
+    margin: 88px 0 30px;
+  }
+
+  #page #our-works #team .about-team h2,
+  h5 {
+    padding: 0 !important;
+  }
+
+  #page #our-works #team .about-team p {
+    padding: 0 !important;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #page #contact .form button {
+    left: 71%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #page #contact .form button {
+    left: 69%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #page #our-works #team .about-team {
+    margin-top: 14%;
+  }
+}
